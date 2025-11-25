@@ -19,7 +19,7 @@ function run(event) {
     event.preventDefault(); // form submission prevention
 
     if (age.value === "" || nameField.value === "") {
-        alert("Please enter valid details.");
+        alert("Please enter valid details");
         return;
     }
 
